@@ -4,22 +4,36 @@
 
 body {
   font-family: var(--main-font);
+  background-color: #264d56;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 5px solid #264d56;
 }
 
 .grid {
   display: grid;
+  gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-colunms-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.img-responsive {
+  max-width: 100%;
+  display: block;
 }
 
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px;
 }
 
 header {
@@ -61,13 +75,38 @@ header a {
   text-transform: uppercase;
 }
 
+main {
+  background-color: white;
+}
+
+main h2 {
+  color: #939393;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+main h3 {
+  color: rgba(0, 0, 0, 0.71);
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
     url("../images/mountains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding: 100px 0;
 }
 
 footer h3 {
@@ -79,7 +118,6 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   opacity: 0.7;
-  margin-right: 20px;
   line-height: 24px;
 }
 
@@ -109,5 +147,14 @@ footer a {
   }
   header h3 {
     font-size: 25px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
