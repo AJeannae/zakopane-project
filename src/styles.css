@@ -30,10 +30,63 @@ body {
   display: block;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: #fff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 14px;
+}
+
+.card h4 {
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 5px;
+}
+
+.card p {
+  margin: 5px;
+  font-size: 22px;
+}
+
+.card-footer {
+  padding: 17px;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  background-color: #264d56;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+.secondary-section {
+  background-color: #649193;
+}
+
+section .text-center {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  line-height: 0;
 }
 
 header {
@@ -41,7 +94,7 @@ header {
     url("../images/zakopane.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 260px 0;
 }
@@ -63,7 +116,7 @@ header h3 {
 }
 
 header a {
-  background-color: white;
+  background-color: #fff;
   padding: 15px 32px;
   border-radius: 4px;
   display: inline-block;
@@ -76,7 +129,7 @@ header a {
 }
 
 main {
-  background-color: white;
+  background-color: #fff;
 }
 
 main h2 {
@@ -96,7 +149,7 @@ main h3 {
 }
 
 main p {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 100;
   line-height: 1.5;
 }
@@ -106,7 +159,7 @@ footer {
     url("../images/mountains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: #fff;
 }
 
 footer h3 {
@@ -132,7 +185,7 @@ footer li {
 }
 
 footer a {
-  color: white;
+  color: #fff;
   opacity: 0.7;
 }
 
