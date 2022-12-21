@@ -39,6 +39,10 @@ body {
   aspect-ratio: 1/1;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 .card {
   background: #fff;
   margin: 30px 0;
@@ -79,6 +83,12 @@ body {
   margin: 0 auto;
   border-radius: 4px;
   text-decoration: none;
+}
+
+.instagram-photo-heading {
+  text-align: center;
+  color: #939393;
+  font-size: 25px;
 }
 
 section {
