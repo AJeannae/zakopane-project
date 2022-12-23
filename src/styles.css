@@ -222,6 +222,10 @@ footer a {
     font-size: 25px;
   }
 
+  .learn-about-zakopane {
+    text-align: center;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     gap: 32px;
